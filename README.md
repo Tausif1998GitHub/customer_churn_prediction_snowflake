@@ -241,6 +241,5 @@ Then upload your `customer_churn.csv` using the **UI Loader** or **SnowSQL**.
 This POC successfully demonstrates a **complete Snowflake AI/ML pipeline** —
 from data ingestion to model deployment — validating Tausif’s ability to design, implement, and operationalize **cloud-native data science workflows**.
 
-> *“AI begins where your database ends — Snowflake lets you build the bridge.”*   
 
 ---
