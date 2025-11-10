@@ -13,7 +13,7 @@ import joblib
 connection_parameters = {
     "account": "vg01336.ap-south-1.aws",   # your Snowflake account name
     "user": "TAUSIF",
-    "password": "Macbookpro786@78",  # replace safely or use env var
+    "password": "XXXXXXXX",  # replace safely or use env var
     "role": "ACCOUNTADMIN",
     "warehouse": "POC_WH",
     "database": "POC_DB",
