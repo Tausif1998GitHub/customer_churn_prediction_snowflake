@@ -20,7 +20,7 @@ Built as part of an AI/ML Engineer assignment focusing on **Snowflake Operations
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Category | Tools & Frameworks |
 |-----------|--------------------|
@@ -44,7 +44,7 @@ Built as part of an AI/ML Engineer assignment focusing on **Snowflake Operations
 
 ---
 
-## Architecture & Workflow
+##   Architecture & Workflow
 
 ```mermaid
 graph TD
