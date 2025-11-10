@@ -1,0 +1,11 @@
+﻿CUSTOMER_ID,AGE,TENURE_MONTHS,MONTHLY_CHARGES,GENDER,TOTAL_CHARGES,CONTRACT_TYPE,PAYMENT_METHOD,NUM_SUPPORT_CALLS,INTERNET_SERVICE,CHURN
+1,60,1,57,Other,57,Month-to-month,Bank transfer,2,DSL,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+2,18,72,88,Other,6336,Month-to-month,Bank transfer,1,None,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+3,64,14,88,Female,1232,One year,Credit card,10,DSL,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+4,76,49,39,Other,1911,One year,Bank transfer,10,None,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+5,68,46,71,Female,3266,Two year,Credit card,10,DSL,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+6,67,9,18,Other,162,One year,Credit card,2,DSL,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+7,51,10,70,Male,700,Two year,Bank transfer,5,Fiber optic,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+8,57,9,87,Other,783,Two year,Credit card,8,Fiber optic,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+9,23,47,38,Other,1786,Two year,Bank transfer,4,Fiber optic,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
+10,36,29,43,Male,1247,Two year,Credit card,17,Fiber optic,"Syntax error in formula 'if (contract_type == ""Month-to-month"" && num_support_calls > 5) { 1 } else { 0 }'"
