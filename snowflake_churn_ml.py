@@ -29,12 +29,12 @@ try:
     sdf = session.table(table_name)
     df = sdf.to_pandas()
 except Exception as e:
-    print("⚠️ Could not fetch from Snowflake, loading local CSV instead...")
+    print(" Could not fetch from Snowflake, loading local CSV instead...")
     df = pd.read_csv("customer_churn.csv")
 
 # Normalize column names
 df.columns = [col.strip().lower() for col in df.columns]
-print("✅ Data loaded:", df.shape)
+print(" Data loaded:", df.shape)
 print(df.head())
 
 # =============== 3️⃣ Data Cleaning =================================
@@ -64,7 +64,7 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 y_prob = clf.predict_proba(X_test)[:, 1]
 
-print("\n📊 Classification Report:\n", classification_report(y_test, y_pred))
+print("\n Classification Report:\n", classification_report(y_test, y_pred))
 print("ROC AUC:", round(roc_auc_score(y_test, y_prob), 3))
 
 # Save model locally
@@ -93,11 +93,11 @@ results.reset_index(drop=True, inplace=True)
 # Write cleanly
 session.write_pandas(results, "CHURN_PREDICTIONS")
 
-print("✅ Predictions uploaded to Snowflake table: CHURN_PREDICTIONS")
+print("Predictions uploaded to Snowflake table: CHURN_PREDICTIONS")
 
 # =============== 9️⃣ Verify from Python =============================
 preview = session.table("CHURN_PREDICTIONS").limit(5).to_pandas()
 print("\n🔍 Preview from Snowflake:\n", preview)
 
 session.close()
-print("\n🎯 End-to-end POC completed successfully.")
+print("\n End-to-end POC completed successfully.")
