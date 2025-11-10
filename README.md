@@ -1,4 +1,4 @@
-# 🚀 End-to-End AI/ML + Snowflake POC — Customer Churn Prediction
+# End-to-End AI/ML + Snowflake POC — Customer Churn Prediction
 
 **Author:** Tausif Rahman  
 **Role Target:** AI/ML Engineer (Snowflake + MLOps Focus)  
@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This mini-project demonstrates an **end-to-end AI/ML workflow integrated with Snowflake**, showcasing:
 
@@ -16,7 +16,7 @@ This mini-project demonstrates an **end-to-end AI/ML workflow integrated with Sn
 - Model evaluation and prediction storage back into Snowflake  
 - Visualization of key insights and churn behavior
 
-✅ Built as part of an AI/ML Engineer assignment focusing on **Snowflake Operations and ML Integration**.
+Built as part of an AI/ML Engineer assignment focusing on **Snowflake Operations and ML Integration**.
 
 ---
 
@@ -33,7 +33,7 @@ This mini-project demonstrates an **end-to-end AI/ML workflow integrated with Sn
 
 ---
 
-## 📊 Problem Statement
+## Problem Statement
 
 > **Goal:** Predict which customers are likely to churn (i.e., discontinue their service) based on historical usage and demographic factors.
 
@@ -44,7 +44,7 @@ This mini-project demonstrates an **end-to-end AI/ML workflow integrated with Sn
 
 ---
 
-## 🧩 Architecture & Workflow
+## Architecture & Workflow
 
 ```mermaid
 graph TD
@@ -58,7 +58,7 @@ F --> G[Visualization & Reporting]
 
 ---
 
-## 🧪 Steps Performed
+## Steps Performed
 
 ### 1️⃣ Data Generation & Ingestion
 - Dataset of **1000 rows** created using [Mockaroo](https://mockaroo.com/)
@@ -88,7 +88,7 @@ Monthly Avg = 55.06 | Total Avg = 2012.87
 
 ---
 
-#### 💬 Churn by Contract Type
+#### Churn by Contract Type
 ```sql
 SELECT contract_type, AVG(churn) AS churn_rate, COUNT(*) AS cnt
 FROM CUSTOMER_CHURN
@@ -103,7 +103,7 @@ Customers with **Month-to-Month contracts** have the highest churn rate (~72%).
 
 ---
 
-#### ☎️ Churn by Support Calls
+#### Churn by Support Calls
 ```sql
 SELECT num_support_calls, AVG(churn) AS churn_rate
 FROM CUSTOMER_CHURN
@@ -124,7 +124,7 @@ Model training and prediction executed in VS Code via Snowpark session.
 - **ROC AUC:** 1.00  
 - **Accuracy:** 100% (on synthetic balanced data)
 
-#### 🧠 Core Script
+#### Core Script
 File: `snowflake_churn_ml.py`
 
 ```python
@@ -164,7 +164,7 @@ Sample Output:
 
 ---
 
-## 🧾 Files in This Repository
+## Files in This Repository
 
 | File | Description |
 |------|--------------|
@@ -180,7 +180,7 @@ Sample Output:
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | Metric | Value |
 |---------|--------|
@@ -193,7 +193,7 @@ Sample Output:
 
 ---
 
-## 🧰 Environment Setup
+## Environment Setup
 
 ### Install Dependencies
 ```bash
@@ -214,7 +214,7 @@ joblib
 
 ---
 
-## ☁️ Snowflake Setup Recap
+## Snowflake Setup Recap
 ```sql
 CREATE WAREHOUSE POC_WH;
 CREATE DATABASE POC_DB;
@@ -229,7 +229,7 @@ Then upload your `customer_churn.csv` using the **UI Loader** or **SnowSQL**.
 
 ---
 
-## 🧭 Future Enhancements
+## Future Enhancements
 - 🔹 Add **FastAPI microservice** to serve churn predictions via REST API  
 - 🔹 Integrate **MLflow** or **Snowflake Cortex ML** for tracking  
 - 🔹 Deploy visualization dashboard via **Streamlit or Power BI**  
@@ -237,7 +237,7 @@ Then upload your `customer_churn.csv` using the **UI Loader** or **SnowSQL**.
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 This POC successfully demonstrates a **complete Snowflake AI/ML pipeline** —
 from data ingestion to model deployment — validating Tausif’s ability to design, implement, and operationalize **cloud-native data science workflows**.
 
