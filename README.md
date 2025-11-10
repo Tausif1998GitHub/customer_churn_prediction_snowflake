@@ -1,8 +1,8 @@
 # End-to-End AI/ML + Snowflake POC — Customer Churn Prediction
 
-**Author:** Tausif Rahman  
-**Role Target:** AI/ML Engineer (Snowflake + MLOps Focus)  
-**Date:** November 2025  
+**Author:** Sk Tausif Rahman  
+**Role :** AI/ML Engineer (Snowflake + MLOps Focus)  
+**Date:** 10th of November 2025  
 
 ---
 
@@ -44,9 +44,9 @@ Built as part of an AI/ML Engineer assignment focusing on **Snowflake Operations
 
 ---
 
-##   Architecture & Workflow
+##    Architecture & Workflow
 
-```mermaid
+```
 graph TD
 A[Mockaroo CSV] --> B[Snowflake Data Load]
 B --> C[Data Validation via SQL]
@@ -230,10 +230,10 @@ Then upload your `customer_churn.csv` using the **UI Loader** or **SnowSQL**.
 ---
 
 ## Future Enhancements
-- 🔹 Add **FastAPI microservice** to serve churn predictions via REST API  
-- 🔹 Integrate **MLflow** or **Snowflake Cortex ML** for tracking  
-- 🔹 Deploy visualization dashboard via **Streamlit or Power BI**  
-- 🔹 Automate pipeline using **Airflow** or **AWS Lambda + Snowflake Task**
+- 1. Add **FastAPI microservice** to serve churn predictions via REST API  
+- 2. Integrate **MLflow** or **Snowflake Cortex ML** for tracking  
+- 3. Deploy visualization dashboard via **Streamlit or Power BI**  
+- 4. Automate pipeline using **Airflow** or **AWS Lambda + Snowflake Task**
 
 ---
 
@@ -241,11 +241,6 @@ Then upload your `customer_churn.csv` using the **UI Loader** or **SnowSQL**.
 This POC successfully demonstrates a **complete Snowflake AI/ML pipeline** —
 from data ingestion to model deployment — validating Tausif’s ability to design, implement, and operationalize **cloud-native data science workflows**.
 
-> *“AI begins where your database ends — Snowflake lets you build the bridge.”* ☁️🤖  
+> *“AI begins where your database ends — Snowflake lets you build the bridge.”*   
 
 ---
-
-### 📬 Connect with Me
-**Tausif Rahman**  
-AI/ML Engineer | Cloud & MLOps | Snowflake | FastAPI  
-🔗 [LinkedIn](https://www.linkedin.com) • ✉️ tausif@example.com
